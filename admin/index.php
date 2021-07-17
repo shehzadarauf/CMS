@@ -2,9 +2,6 @@
 
     <div id="wrapper">
 
-        <?php   if($conect) echo "conection" ?>
-
-
       
 <?php include "includes/Admin_navigation.php"  ?>
 
