@@ -71,17 +71,7 @@ $select_posts = mysqli_query($conect,$query);
 
 
 ?>
-                        <tr>
-                            <td>10</td>
-                            <td>edwin</td>
-                            <td>frameword</td>
-                            <td>bootsrap</td>
-                            <td>staus</td>
-                            <td>image</td>
-                            <td>tags</td>
-                            <td>comment</td>
-                            <td>datw</td>
-                        </tr>
+                        
                     </tbody>
                 </table>
 
