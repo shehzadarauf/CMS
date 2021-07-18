@@ -41,11 +41,12 @@ switch($source)
     }
     break;
     
-    case '200';
+    case 'edit_post';
     {
-        echo "nice ";
+        include "includes/edit_post.php";
     }
     break;
+
 
     default:
     {
