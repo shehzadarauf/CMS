@@ -65,13 +65,24 @@ function findAllCategories(){
 function deleteCategories()
 {
     global $conect;
-    
+
     if(isset($_GET['delete'])){
         $the_cat_id = $_GET['delete'];
         $query = "DELETE FROM categories WHERE cat_id = {$the_cat_id} ";
         $delete_query = mysqli_query($conect,$query);
         header("Location: categories.php");
         }
+}
+
+
+function confirmQuery($result)
+{   
+    global $conect;
+
+    if(!$result )
+    {
+        die("Query Failed" . mysqli_error($conect));
+    }
 }
 ?>
 
